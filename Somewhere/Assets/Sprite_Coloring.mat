@@ -95,9 +95,9 @@ Material:
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpriteColorC: {r: 0.1764706, g: 0.10588236, b: 0, a: 0}
-    - _SpriteColorC2: {r: 0.11764707, g: 0.37647063, b: 0.43137258, a: 1}
-    - _SpriteColorC3: {r: 0.3529412, g: 0.7254902, b: 0.65882355, a: 0}
-    - _SpriteColorC4: {r: 0.7686275, g: 0.94117653, b: 0.7607844, a: 0}
+    - _SpriteColorC2: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
+    - _SpriteColorC3: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+    - _SpriteColorC4: {r: 1, g: 1, b: 1, a: 0}
 --- !u!114 &8912593072740170106
 MonoBehaviour:
   m_ObjectHideFlags: 11
