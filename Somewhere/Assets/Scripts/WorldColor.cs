@@ -20,5 +20,14 @@ public class WorldColor: MonoBehaviour
         Shader.SetGlobalColor("_SpriteColorC3", Color3);
         Shader.SetGlobalColor("_SpriteColorC4", Color4);
     }
-
+    public void Color()
+    {
+        cam = GetComponent<Camera>();
+        cam.clearFlags = CameraClearFlags.SolidColor;
+        cam.backgroundColor = Color1;
+        Shader.SetGlobalColor("_SpriteColorC", Color1);
+        Shader.SetGlobalColor("_SpriteColorC2", Color2);
+        Shader.SetGlobalColor("_SpriteColorC3", Color3);
+        Shader.SetGlobalColor("_SpriteColorC4", Color4);
+    }
 }
