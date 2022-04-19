@@ -315,12 +315,11 @@ GameObject:
   - component: {fileID: 321661414}
   - component: {fileID: 321661413}
   - component: {fileID: 321661412}
-  - component: {fileID: 321661416}
   - component: {fileID: 321661415}
-  - component: {fileID: 321661417}
+  - component: {fileID: 321661416}
   m_Layer: 0
   m_Name: DevHouse_0
-  m_TagString: Untagged
+  m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,10 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Entrance: {fileID: 321661411}
-  Exit: {fileID: 1762018059}
-  Player: {fileID: 1168130203}
-  Camera: {fileID: 519420032}
+  destination: {fileID: 1762018059}
 --- !u!61 &321661416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -438,7 +434,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10281381, y: -0.259651}
+  m_Offset: {x: -0.11227559, y: -0.24887764}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -449,29 +445,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20195332, y: 0.27069795}
+  m_Size: {x: 0.21640645, y: 0.29224473}
   m_EdgeRadius: 0
---- !u!50 &321661417
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321661411}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 3
 --- !u!1 &333889075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,7 +1220,7 @@ GameObject:
   - component: {fileID: 838218273}
   m_Layer: 8
   m_Name: FloorTest (4)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1686,7 +1661,7 @@ GameObject:
   - component: {fileID: 982449412}
   m_Layer: 8
   m_Name: FloorTest (2)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1798,6 +1773,8 @@ GameObject:
   - component: {fileID: 1168130207}
   - component: {fileID: 1168130208}
   - component: {fileID: 1168130209}
+  - component: {fileID: 1168130210}
+  - component: {fileID: 1168130211}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2007,6 +1984,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escapeMenus: {fileID: 364717598}
   isPaus: 0
+--- !u!114 &1168130210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168130200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367e0a11f84fefb4e8ed94b1d788a76b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1168130211
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168130200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.13, y: 0.13}
+    newSize: {x: 0.13, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.13, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!1 &1288931521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,7 +2137,7 @@ GameObject:
   - component: {fileID: 1304638942}
   m_Layer: 8
   m_Name: FloorTest
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2260,7 +2275,7 @@ GameObject:
   - component: {fileID: 1415750313}
   m_Layer: 8
   m_Name: FloorTest (3)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2551,7 +2566,7 @@ GameObject:
   - component: {fileID: 1633906716}
   m_Layer: 8
   m_Name: FloorTest (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2967,9 +2982,10 @@ GameObject:
   - component: {fileID: 1762018059}
   - component: {fileID: 1762018058}
   - component: {fileID: 1762018057}
+  - component: {fileID: 1762018060}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3064,6 +3080,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762018060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762018056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 321661414}
 --- !u!1 &1861485386
 GameObject:
   m_ObjectHideFlags: 0

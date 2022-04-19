@@ -1,21 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Warp : MonoBehaviour
 {
-    public GameObject Entrance;
-    public Transform Exit;
-    public Transform Player;
-    public Transform Camera;
+    [SerializeField] private Transform destination;
 
-    private void onTriggerEnter2D()
+    public Transform GetDestination()
     {
-            Debug.Log("In");
-            /*if (Input.GetKeyDown(KeyCode.E))
-            {
-                Player.position = Exit.position;
-            }*/
+        return destination;
     }
-
 }
