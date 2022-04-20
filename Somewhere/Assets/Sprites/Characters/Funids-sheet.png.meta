@@ -1,0 +1,2504 @@
+fileFormatVersion: 2
+guid: 3d32c9313f4cb8d4b98bbee3d101e7f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6766120489097369020
+    second: Funids-sheet_0
+  - first:
+      213: -2088398931378595394
+    second: Funids-sheet_1
+  - first:
+      213: -5212341599462284033
+    second: Funids-sheet_2
+  - first:
+      213: -2165671552445259991
+    second: Funids-sheet_3
+  - first:
+      213: 2565599342518470162
+    second: Funids-sheet_4
+  - first:
+      213: 765680093574556257
+    second: Funids-sheet_5
+  - first:
+      213: 5224967299041658478
+    second: Funids-sheet_6
+  - first:
+      213: -2209907181434388616
+    second: Funids-sheet_7
+  - first:
+      213: 7752406420201450737
+    second: Funids-sheet_8
+  - first:
+      213: -3327991405099637828
+    second: Funids-sheet_9
+  - first:
+      213: -8196971851668564847
+    second: Funids-sheet_10
+  - first:
+      213: 6614975513823405839
+    second: Funids-sheet_11
+  - first:
+      213: -5398870629881575793
+    second: Funids-sheet_12
+  - first:
+      213: -7050338304889425743
+    second: Funids-sheet_13
+  - first:
+      213: -675931243441897233
+    second: Funids-sheet_14
+  - first:
+      213: 5428547582271303281
+    second: Funids-sheet_15
+  - first:
+      213: -2977829389576795343
+    second: Funids-sheet_16
+  - first:
+      213: 1484218622715827188
+    second: Funids-sheet_17
+  - first:
+      213: 5334871776075183443
+    second: Funids-sheet_18
+  - first:
+      213: -741259874074630587
+    second: Funids-sheet_19
+  - first:
+      213: -4418769397434473568
+    second: Funids-sheet_20
+  - first:
+      213: -6905485544263435624
+    second: Funids-sheet_21
+  - first:
+      213: -7852248379508166622
+    second: Funids-sheet_22
+  - first:
+      213: -8820064331107160052
+    second: Funids-sheet_23
+  - first:
+      213: -7869254017093955106
+    second: Funids-sheet_24
+  - first:
+      213: 4375860802795762610
+    second: Funids-sheet_25
+  - first:
+      213: -1809094648570243786
+    second: Funids-sheet_26
+  - first:
+      213: 810239032775357143
+    second: Funids-sheet_27
+  - first:
+      213: 7169133471666875856
+    second: Funids-sheet_28
+  - first:
+      213: -2466171296954941153
+    second: Funids-sheet_29
+  - first:
+      213: 6737688569760602167
+    second: Funids-sheet_30
+  - first:
+      213: 3643495660989989290
+    second: Funids-sheet_31
+  - first:
+      213: 7583686326531262912
+    second: Funids-sheet_32
+  - first:
+      213: -5320902969816125442
+    second: Funids-sheet_33
+  - first:
+      213: -535455518396892711
+    second: Funids-sheet_34
+  - first:
+      213: -948756961640540205
+    second: Funids-sheet_35
+  - first:
+      213: -2079894266825117453
+    second: Funids-sheet_36
+  - first:
+      213: 6405573491065608262
+    second: Funids-sheet_37
+  - first:
+      213: -6350199545576243903
+    second: Funids-sheet_38
+  - first:
+      213: 343832023065547588
+    second: Funids-sheet_39
+  - first:
+      213: -8303210492040617092
+    second: Funids-sheet_40
+  - first:
+      213: 541831919610216329
+    second: Funids-sheet_41
+  - first:
+      213: 3560104258701634218
+    second: Funids-sheet_42
+  - first:
+      213: -2188982121103503978
+    second: Funids-sheet_43
+  - first:
+      213: -40816663410916343
+    second: Funids-sheet_44
+  - first:
+      213: 7509458117517018680
+    second: Funids-sheet_45
+  - first:
+      213: 7844611852186836738
+    second: Funids-sheet_46
+  - first:
+      213: -2489145084360386733
+    second: Funids-sheet_47
+  - first:
+      213: -7791216951674552631
+    second: Funids-sheet_48
+  - first:
+      213: -4148001715399118640
+    second: Funids-sheet_49
+  - first:
+      213: -1983272360294710058
+    second: Funids-sheet_50
+  - first:
+      213: 7507907613510072481
+    second: Funids-sheet_51
+  - first:
+      213: -6909156386362729452
+    second: Funids-sheet_52
+  - first:
+      213: 1608177147145200154
+    second: Funids-sheet_53
+  - first:
+      213: 797606819144982095
+    second: Funids-sheet_54
+  - first:
+      213: 1862845831487491000
+    second: Funids-sheet_55
+  - first:
+      213: -8036991278084094720
+    second: Funids-sheet_56
+  - first:
+      213: 3454691380476327790
+    second: Funids-sheet_57
+  - first:
+      213: 5748917262026185162
+    second: Funids-sheet_58
+  - first:
+      213: 6474613091629387675
+    second: Funids-sheet_59
+  - first:
+      213: 5601508969437063267
+    second: Funids-sheet_60
+  - first:
+      213: -3223700956075013633
+    second: Funids-sheet_61
+  - first:
+      213: -5674323254572960566
+    second: Funids-sheet_62
+  - first:
+      213: -6715371368675411342
+    second: Funids-sheet_63
+  - first:
+      213: 1876571232692803323
+    second: Funids-sheet_64
+  - first:
+      213: 3360856940318089596
+    second: Funids-sheet_65
+  - first:
+      213: -8393152877162450
+    second: Funids-sheet_66
+  - first:
+      213: 2808836914538925747
+    second: Funids-sheet_67
+  - first:
+      213: -8413407065472042817
+    second: Funids-sheet_68
+  - first:
+      213: -1457976628323688379
+    second: Funids-sheet_69
+  - first:
+      213: 4916857490767702037
+    second: Funids-sheet_70
+  - first:
+      213: 5932029023378831270
+    second: Funids-sheet_71
+  - first:
+      213: -9067587302773327853
+    second: Funids-sheet_72
+  - first:
+      213: 8901279797716172511
+    second: Funids-sheet_73
+  - first:
+      213: 3977266302647601108
+    second: Funids-sheet_74
+  - first:
+      213: -122840266359044496
+    second: Funids-sheet_75
+  - first:
+      213: 4183166959257237825
+    second: Funids-sheet_76
+  - first:
+      213: 8432091460591455069
+    second: Funids-sheet_77
+  - first:
+      213: -6045557571937329382
+    second: Funids-sheet_78
+  - first:
+      213: 9176156106559631762
+    second: Funids-sheet_79
+  - first:
+      213: 2566565777935859823
+    second: Funids-sheet_80
+  - first:
+      213: -2554241749645377237
+    second: Funids-sheet_81
+  - first:
+      213: -6785295991797677225
+    second: Funids-sheet_82
+  - first:
+      213: 1540526473028208867
+    second: Funids-sheet_83
+  - first:
+      213: -6769564203969011441
+    second: Funids-sheet_84
+  - first:
+      213: 332403579872069548
+    second: Funids-sheet_85
+  - first:
+      213: 1526132021523858546
+    second: Funids-sheet_86
+  - first:
+      213: 3563320182542667286
+    second: Funids-sheet_87
+  - first:
+      213: 9029004657869137526
+    second: Funids-sheet_88
+  - first:
+      213: 2244893299326672943
+    second: Funids-sheet_89
+  - first:
+      213: 2185459697776447930
+    second: Funids-sheet_90
+  - first:
+      213: 3914323909686755687
+    second: Funids-sheet_91
+  - first:
+      213: -3535144435508606672
+    second: Funids-sheet_92
+  - first:
+      213: -6883289766663596070
+    second: Funids-sheet_93
+  - first:
+      213: -9161949189401321650
+    second: Funids-sheet_94
+  - first:
+      213: -3129719271114026716
+    second: Funids-sheet_95
+  - first:
+      213: -2964346578031711374
+    second: Funids-sheet_96
+  - first:
+      213: -5237204865636865233
+    second: Funids-sheet_97
+  - first:
+      213: 3539555161453272484
+    second: Funids-sheet_98
+  - first:
+      213: 2733591585879738568
+    second: Funids-sheet_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Funids-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb514248cb616ed50800000000000000
+      internalID: 6766120489097369020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb99fd99c348403e0800000000000000
+      internalID: -2088398931378595394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42f047eea0aa7b0800000000000000
+      internalID: -5212341599462284033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fd450823df1f1e0800000000000000
+      internalID: -2165671552445259991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160ac64207da9320800000000000000
+      internalID: 2565599342518470162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a69150dfd30aa00800000000000000
+      internalID: 765680093574556257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66096e4310d28840800000000000000
+      internalID: 5224967299041658478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb4088025d451e0800000000000000
+      internalID: -2209907181434388616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fca09ea094169b60800000000000000
+      internalID: 7752406420201450737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2196
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3ab73137990d1d0800000000000000
+      internalID: -3327991405099637828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945b63c7818e3e80800000000000000
+      internalID: -8196971851668564847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e953ae2d1dcb50800000000000000
+      internalID: 6614975513823405839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f868e9d34cb5315b0800000000000000
+      internalID: -5398870629881575793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07cbe7aaa282e90800000000000000
+      internalID: -7050338304889425743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0ce068d1c9e96f0800000000000000
+      internalID: -675931243441897233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e269fa343165b40800000000000000
+      internalID: 5428547582271303281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b8e8882ff9ca6d0800000000000000
+      internalID: -2977829389576795343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f31fff39f0099410800000000000000
+      internalID: 1484218622715827188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355f73f6d95490a40800000000000000
+      internalID: 5334871776075183443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1952
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546e787621486b5f0800000000000000
+      internalID: -741259874074630587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a32d8905a06da2c0800000000000000
+      internalID: -4418769397434473568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a359cfb79ca20a0800000000000000
+      internalID: -6905485544263435624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220774ba3b5370390800000000000000
+      internalID: -7852248379508166622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b348b836d89580800000000000000
+      internalID: -8820064331107160052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed19ccf1a2bcac290800000000000000
+      internalID: -7869254017093955106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b37231473e2abc30800000000000000
+      internalID: 4375860802795762610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63519ea800ec4e6e0800000000000000
+      internalID: -1809094648570243786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23bb38b1c8e3b00800000000000000
+      internalID: 810239032775357143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2116a8e0ed7360800000000000000
+      internalID: 7169133471666875856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1708
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f118cb1954666cdd0800000000000000
+      internalID: -2466171296954941153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385acf6e04118d50800000000000000
+      internalID: 6737688569760602167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa14cf5effb409230800000000000000
+      internalID: 3643495660989989290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c902eca88aae3960800000000000000
+      internalID: 7583686326531262912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effe9c7b0fa5826b0800000000000000
+      internalID: -5320902969816125442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93ee00b0ea198f0800000000000000
+      internalID: -535455518396892711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d79c33f19655d2f0800000000000000
+      internalID: -948756961640540205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0748f1f2bb223e0800000000000000
+      internalID: -2079894266825117453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648df95e62b25e850800000000000000
+      internalID: 6405573491065608262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14db419782f8fd7a0800000000000000
+      internalID: -6350199545576243903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1464
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443d93d376985c400800000000000000
+      internalID: 343832023065547588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c736f9ebc0215cc80800000000000000
+      internalID: -8303210492040617092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb5589249f48700800000000000000
+      internalID: 541831919610216329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa244706f7086130800000000000000
+      internalID: 3560104258701634218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dc1fbcb5c2f91e0800000000000000
+      internalID: -2188982121103503978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904c97cf57dfe6ff0800000000000000
+      internalID: -40816663410916343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836864efe54f63860800000000000000
+      internalID: 7509458117517018680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f5a62cae8addc60800000000000000
+      internalID: 7844611852186836738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3571a4cdbb7c47dd0800000000000000
+      internalID: -2489145084360386733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cebf6b467900e390800000000000000
+      internalID: -7791216951674552631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1220
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0bce9ba665f66c0800000000000000
+      internalID: -4148001715399118640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d488cfcb400a74e0800000000000000
+      internalID: -1983272360294710058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8f7b52232713860800000000000000
+      internalID: 7507907613510072481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5a357fdebd10a0800000000000000
+      internalID: -6909156386362729452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12ad774894615610800000000000000
+      internalID: 1608177147145200154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed0951d2ba11b00800000000000000
+      internalID: 797606819144982095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb0129f9682ad910800000000000000
+      internalID: 1862845831487491000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00582eea30fd67090800000000000000
+      internalID: -8036991278084094720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6735edb18781ff20800000000000000
+      internalID: 3454691380476327790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99e2e6ac148cf40800000000000000
+      internalID: 5748917262026185162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 976
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fc9a88d427ad950800000000000000
+      internalID: 6474613091629387675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368e579cabe8cbd40800000000000000
+      internalID: 5601508969437063267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9cf037f0d1343d0800000000000000
+      internalID: -3223700956075013633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4b0765011c041b0800000000000000
+      internalID: -5674323254572960566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27af54bd1553ec2a0800000000000000
+      internalID: -6715371368675411342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf61f58f79bea0a10800000000000000
+      internalID: 1876571232692803323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71e094a49924ae20800000000000000
+      internalID: 3360856940318089596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e201630d87e22eff0800000000000000
+      internalID: -8393152877162450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec81bba4efaf620800000000000000
+      internalID: 2808836914538925747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8f6cf99d29d3b80800000000000000
+      internalID: -8413407065472042817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 732
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e1f13bf934cbe0800000000000000
+      internalID: -1457976628323688379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186d6456df2c3440800000000000000
+      internalID: 4916857490767702037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a77dcfa7fcc25250800000000000000
+      internalID: 5932029023378831270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3187a58e365792280800000000000000
+      internalID: -9067587302773327853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdebb35a0d2b78b70800000000000000
+      internalID: 8901279797716172511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7017a31a6123730800000000000000
+      internalID: 3977266302647601108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0760e87bd659b4ef0800000000000000
+      internalID: -122840266359044496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149bda2af289d0a30800000000000000
+      internalID: 4183166959257237825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b882e128ec40570800000000000000
+      internalID: 8432091460591455069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f90874b6dd91ca0800000000000000
+      internalID: -6045557571937329382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 488
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291b40f8c51485f70800000000000000
+      internalID: 9176156106559631762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f608a8e0af54e9320800000000000000
+      internalID: 2566565777935859823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b214ae169a28d8cd0800000000000000
+      internalID: -2554241749645377237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7538409de39c5d1a0800000000000000
+      internalID: -6785295991797677225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e88ee74aac016510800000000000000
+      internalID: 1540526473028208867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f012a32293dad02a0800000000000000
+      internalID: -6769564203969011441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7c7547b4fec9400800000000000000
+      internalID: 332403579872069548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274474fdcf8ed2510800000000000000
+      internalID: 1526132021523858546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e8f65a3d4737130800000000000000
+      internalID: 3563320182542667286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67623ab06e77d4d70800000000000000
+      internalID: 9029004657869137526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 244
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206501df86772f10800000000000000
+      internalID: 2244893299326672943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1d5ec1400545e10800000000000000
+      internalID: 2185459697776447930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76182bc5bd8725630800000000000000
+      internalID: 3914323909686755687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0398fcbadd4a0fec0800000000000000
+      internalID: -3535144435508606672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad75feb2d64a970a0800000000000000
+      internalID: -6883289766663596070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f5e8b11c73ad080800000000000000
+      internalID: -9161949189401321650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421dd86a7e00194d0800000000000000
+      internalID: -3129719271114026716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b66493e768cd6d0800000000000000
+      internalID: -2964346578031711374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b64cf2ce5b157b0800000000000000
+      internalID: -5237204865636865233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad925d7aa60f1130800000000000000
+      internalID: 3539555161453272484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funids-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 0
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8cb5d601bafe520800000000000000
+      internalID: 2733591585879738568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
