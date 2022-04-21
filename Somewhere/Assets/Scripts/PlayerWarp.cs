@@ -45,6 +45,8 @@ public class PlayerWarp : MonoBehaviour
 
     IEnumerator LoadLevel()
     {
+        PlayerMovement moveScript = GetComponent<PlayerMovement>();
+        moveScript.canMove = false;
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
 
@@ -52,5 +54,6 @@ public class PlayerWarp : MonoBehaviour
         cam.transform.position = transform.position;
 
         transition.SetTrigger("End");
+        moveScript.canMove = true;
     }
 }
