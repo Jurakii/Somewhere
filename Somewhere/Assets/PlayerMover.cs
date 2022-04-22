@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
 {
-    float nGScale;
-    float oGScale;
+    float nGScale = 1;
+    float oGScale = 0;
     public CharacterController2D controller;
 
     public float runSpeed = 40f;
@@ -20,6 +20,7 @@ public class PlayerMover : MonoBehaviour
     private void Start()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        controller = GetComponent<CharacterController2D>();
     }
 
     // Update is called once per frame
@@ -38,18 +39,20 @@ public class PlayerMover : MonoBehaviour
             m_Rigidbody2D.gravityScale = m_Rigidbody2D.gravityScale * -1;
             nGScale = m_Rigidbody2D.gravityScale;
             Debug.Log(oGScale + " " + nGScale);
-            if ((nGScale > oGScale) && (Input.GetKeyDown(KeyCode.UpArrow)))
-            {
-                Debug.Log("Jump");
-                jump = true;
-            }
-            else if ((nGScale < oGScale) && (Input.GetKeyDown(KeyCode.DownArrow))) 
-            {
-                Debug.Log("Jump");
+            
 
-                jump = true;
-            }
+        }
 
+        if ((nGScale > oGScale) && (Input.GetKeyDown(KeyCode.UpArrow)))
+        {
+            Debug.Log("Jump");
+            m_Rigidbody2D.AddForce(new Vector2(0f, 1000));
+        }
+        else if ((nGScale < oGScale) && (Input.GetKeyDown(KeyCode.DownArrow)))
+        {
+            Debug.Log("Jump");
+
+            m_Rigidbody2D.AddForce(new Vector2(0f, -1000));
         }
     }
 
