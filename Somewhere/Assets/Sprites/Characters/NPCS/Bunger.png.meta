@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 0c0a55922d8067c4ca59a68445ea150f
+guid: b2afcde636e167d41a2712fe228fc328
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3427114271967980436
-    second: Character_0
+      213: 4768845140082447454
+    second: Bunger_0
   - first:
-      213: 8158605244509288230
-    second: Character_1
+      213: -3411382471962363264
+    second: Bunger_1
   - first:
-      213: 6184959299203262911
-    second: Character_2
+      213: -2518705347751495749
+    second: Bunger_2
   - first:
-      213: 2495864320845663737
-    second: Character_3
+      213: -8029060813564378912
+    second: Bunger_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,13 +99,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_0
+      name: Bunger_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 13
-        height: 13
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,20 +113,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49ba251d54e8f8f20800000000000000
-      internalID: 3427114271967980436
+      spriteID: e54567373675e2240800000000000000
+      internalID: 4768845140082447454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_1
+      name: Bunger_1
       rect:
         serializedVersion: 2
-        x: 13
+        x: 20
         y: 0
-        width: 13
-        height: 13
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6277d956e30393170800000000000000
-      internalID: 8158605244509288230
+      spriteID: 08a70bd47b558a0d0800000000000000
+      internalID: -3411382471962363264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_2
+      name: Bunger_2
       rect:
         serializedVersion: 2
-        x: 26
+        x: 40
         y: 0
-        width: 13
-        height: 13
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb9624b96b365d550800000000000000
-      internalID: 6184959299203262911
+      spriteID: bb73565b4d2cb0dd0800000000000000
+      internalID: -2518705347751495749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_3
+      name: Bunger_3
       rect:
         serializedVersion: 2
-        x: 39
+        x: 60
         y: 0
-        width: 13
-        height: 13
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fdc39b406713a220800000000000000
-      internalID: 2495864320845663737
+      spriteID: 0e08c77dabb039090800000000000000
+      internalID: -8029060813564378912
       vertices: []
       indices: 
       edges: []
