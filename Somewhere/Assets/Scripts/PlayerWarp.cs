@@ -8,13 +8,15 @@ public class PlayerWarp : MonoBehaviour
     public GameObject cam;
     public Animator transition;
     public float transitionTime = 1f;
+    private bool warping = false;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && warping == false)
         {
             if (currentTeleporter != null)
             {
+                warping = true;
                 WarpPlayer();
             }
         }
@@ -54,6 +56,7 @@ public class PlayerWarp : MonoBehaviour
         cam.transform.position = transform.position;
 
         transition.SetTrigger("End");
+        warping = false;
         moveScript.canMove = true;
     }
 }
