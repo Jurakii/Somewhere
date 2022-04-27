@@ -9,6 +9,7 @@ public class PlayerWarp : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
     private bool warping = false;
+    public GameObject arrow;
 
     void Update()
     {
@@ -26,7 +27,9 @@ public class PlayerWarp : MonoBehaviour
     {
         if (collision.CompareTag("Teleporter"))
         {
+            arrow.gameObject.SetActive(true);
             currentTeleporter = collision.gameObject;
+            arrow.transform.position = currentTeleporter.transform.position + new Vector3 (0,3,0);
         }
     }
 
@@ -34,6 +37,7 @@ public class PlayerWarp : MonoBehaviour
     {
         if (collision.CompareTag("Teleporter"))
         {
+            arrow.gameObject.SetActive(false);
             if (collision.gameObject == currentTeleporter)
             {
                 currentTeleporter = null;
