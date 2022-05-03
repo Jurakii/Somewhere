@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using TMPro;
 
@@ -16,6 +17,7 @@ public class DialogueUI : MonoBehaviour
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
+
         CloseDialogueBox();
     }
 
@@ -23,18 +25,27 @@ public class DialogueUI : MonoBehaviour
     {
         IsOpen = true;
         dialogueBox.SetActive(true);
-        StartCoroutine(routine:StepThroughDialogue(dialogueObject));
+        StartCoroutine(StepThroughDialogue(dialogueObject));
+    }
+
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
+        responseHandler.AddResponseEvents(responseEvents);
     }
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
-        for(int i = 0; i < dialogueObject.Dialogue.Length; i++)
+        for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
-            yield return typewriterEffect.Run(dialogue, textLabel);
+
+            yield return RunTypingEffect(dialogue);
+
+            textLabel.text = dialogue;
 
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
+            yield return null;
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0));
         }
 
@@ -48,7 +59,22 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    private void CloseDialogueBox()
+    private IEnumerator RunTypingEffect(string dialogue)
+    {
+        typewriterEffect.Run(dialogue, textLabel);
+
+        while (typewriterEffect.IsRunning)
+        {
+            yield return null;
+
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
+            {
+                typewriterEffect.Stop();
+            }
+        }
+    }
+
+    public void CloseDialogueBox()
     {
         IsOpen = false;
         dialogueBox.SetActive(false);
