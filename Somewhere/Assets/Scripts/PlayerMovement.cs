@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 	float horizontalMove = 0f;
 	bool jump = false;
 	bool crouch = false;
-	public bool canMove = true;
+	public bool canMove = false;
 
 	// Update is called once per frame
 	void Update()
@@ -28,10 +28,8 @@ public class PlayerMovement : MonoBehaviour
 		{
 			canMove = false;
 			return;
-		} else
-        {
-			canMove = true;
 		}
+
 		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 		if (canMove)
         {
