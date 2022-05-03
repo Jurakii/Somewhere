@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+	[SerializeField] private DialogueUI dialogueUI;
+
+	public DialogueUI DialogueUI => dialogueUI;
+
+	public IInteractable Interactable { get; set; }
+
 
 	public CharacterController2D controller;
 	public Animator animator;
@@ -18,7 +24,14 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
+		if (dialogueUI.IsOpen)
+		{
+			canMove = false;
+			return;
+		} else
+        {
+			canMove = true;
+		}
 		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 		if (canMove)
         {
@@ -45,6 +58,11 @@ public class PlayerMovement : MonoBehaviour
 		{
 			crouch = false;
 		}
+
+		if (Input.GetKeyDown(KeyCode.E))
+        {
+			Interactable?.Interact(player:this);
+        }
 
 	}
 
