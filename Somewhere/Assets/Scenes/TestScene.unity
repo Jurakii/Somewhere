@@ -1324,6 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 191018606}
   textLabel: {fileID: 866644404}
+  player: {fileID: 0}
+  moveScript: {fileID: 0}
 --- !u!114 &542243991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5435,6 +5437,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1038219035343709570, guid: b8d6b6bbf508ef1439e5daf1418f9337,
         type: 3}
+      propertyPath: locked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038219035343709570, guid: b8d6b6bbf508ef1439e5daf1418f9337,
+        type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1168130203}
@@ -5685,7 +5692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 5733681132356358343}
+  destination: {fileID: 5733681132356358340}
+  locked: 0
 --- !u!61 &3981267836702786204
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5807,7 +5815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 7086662967816345590}
+  destination: {fileID: 7086662967816345589}
+  locked: 0
 --- !u!212 &4764413054586943644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5929,7 +5938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 3981267836702786206}
+  destination: {fileID: 3981267836702786205}
+  locked: 0
 --- !u!1 &5733681132356358340
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,7 +6061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec05d53495770e458439ff838bef15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 4764413054586943645}
+  destination: {fileID: 4764413054586943646}
+  locked: 0
 --- !u!61 &7086662967816345588
 BoxCollider2D:
   m_ObjectHideFlags: 0
