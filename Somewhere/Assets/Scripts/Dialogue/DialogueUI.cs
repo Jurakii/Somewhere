@@ -12,6 +12,8 @@ public class DialogueUI : MonoBehaviour
 
     private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
+    public GameObject player;
+    public PlayerMovement moveScript;
 
     private void Start()
     {
@@ -76,6 +78,8 @@ public class DialogueUI : MonoBehaviour
 
     public void CloseDialogueBox()
     {
+        PlayerMovement moveScript = player.GetComponent<PlayerMovement>();
+        moveScript.canMove = true;
         IsOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;

@@ -1190,6 +1190,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1516343765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2461356726759244279, guid: 93c887d250101fd41aa306609b37814a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1073431308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1516343771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2461356726759244274, guid: 93c887d250101fd41aa306609b37814a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1073431308}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516343765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e1a74b6f09c5e48975722f1bfbb4bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1522789750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,6 +1555,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 640409826}
   textLabel: {fileID: 1751453316}
+  player: {fileID: 1516343765}
+  moveScript: {fileID: 1516343771}
 --- !u!114 &2119514461
 MonoBehaviour:
   m_ObjectHideFlags: 0
