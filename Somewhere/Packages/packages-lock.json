@@ -2,7 +2,7 @@
   "dependencies": {
     "com.unity.2d.animation": {
       "version": "3.2.17",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "2.1.2",
@@ -72,7 +72,7 @@
       "dependencies": {}
     },
     "com.unity.collab-proxy": {
-      "version": "1.14.15",
+      "version": "1.14.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -95,7 +95,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.14",
+      "version": "2.0.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {
