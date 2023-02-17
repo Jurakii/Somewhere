@@ -12,7 +12,6 @@ public class PlayerMover : MonoBehaviour
 
     float horizontalMove = 0f;
 
-    bool jump = false;
 
     private Rigidbody2D m_Rigidbody2D;
 
@@ -60,6 +59,5 @@ public class PlayerMover : MonoBehaviour
     {
         
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
-        jump = false;
     }
 }

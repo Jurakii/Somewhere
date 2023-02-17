@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1038219034854432982}
   - component: {fileID: 1038219034854432983}
   - component: {fileID: 1038219034854432984}
-  m_Layer: 0
+  - component: {fileID: 1521577599391708250}
+  m_Layer: 9
   m_Name: MintCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,6 +134,23 @@ MonoBehaviour:
   Color3: {r: 0.3529412, g: 0.7254902, b: 0.65882355, a: 0}
   Color4: {r: 0.7686275, g: 0.94117653, b: 0.7607844, a: 0}
   cam: {fileID: 1038219034854432981}
+--- !u!114 &1521577599391708250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038219034854432986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: ab972a4735e64f14ebac9d74aa0a2131, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &1038219035343709573
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +162,7 @@ GameObject:
   - component: {fileID: 1038219035343709571}
   - component: {fileID: 1038219035343709572}
   - component: {fileID: 1038219035343709570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CameraController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,6 +217,7 @@ MonoBehaviour:
   cameraOffset: {x: 0, y: 2.5, z: -30}
   followSpeed: 5
   xMin: 0
+  isLocked: 0
 --- !u!1 &1038219035455533247
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +231,7 @@ GameObject:
   - component: {fileID: 1038219035455533243}
   - component: {fileID: 1038219035455533244}
   - component: {fileID: 1038219035455533245}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: IceCreamCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -345,7 +364,7 @@ GameObject:
   - component: {fileID: 1038219036124973532}
   - component: {fileID: 1038219036124973533}
   - component: {fileID: 1038219036124973534}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WishCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
