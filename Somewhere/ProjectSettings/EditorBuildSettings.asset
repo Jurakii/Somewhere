@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dialogue.unity
     guid: 9d9f95d9b3e40c6488fad89fa0f0cc29
+  - enabled: 1
+    path: Assets/Scenes/Battle/Battle.unity
+    guid: f0266d80dab0a0d4f8e5959b6222907d
+  - enabled: 1
+    path: Assets/Scenes/Battle/Minigames/Jump/Jump.unity
+    guid: 6825386d71c1ffa49af537739f985cc6
   m_configObjects: {}
