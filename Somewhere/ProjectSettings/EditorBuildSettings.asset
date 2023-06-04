@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle/Minigames/Jump/Jump.unity
     guid: 6825386d71c1ffa49af537739f985cc6
+  - enabled: 1
+    path: Assets/Scenes/Battle/Minigames/Space/Space.unity
+    guid: 9a57eef58d9a8094fb21bf474fe0eab8
   m_configObjects: {}
