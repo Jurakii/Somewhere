@@ -11,7 +11,6 @@ public class SpaceGame : MonoBehaviour
     public Transform bulletPrefab;
     public Transform bulletContainer;
     public Text scoreText;
-    public Text gameOverText;
 
 
     public float playerSpeed = 1f;
@@ -24,7 +23,6 @@ public class SpaceGame : MonoBehaviour
     {
         score = 0;
         isGameOver = false;
-        gameOverText.gameObject.SetActive(false);
 
         // Spawn enemies
         SpawnEnemies();
@@ -46,19 +44,20 @@ public class SpaceGame : MonoBehaviour
         }
 
         // Check if all enemies are destroyed
-        if (enemyContainer.childCount == 0)
+        if (enemyContainer.childCount <= 5)
         {
-            isGameOver = true;
-            gameOverText.gameObject.SetActive(true);
+            SpawnEnemies();
+            //isGameOver = true;
+            //gameOverText.gameObject.SetActive(true);
         }
     }
 
-private void SpawnEnemies()
+public void SpawnEnemies()
 {
     float initialX = -2.5f;
-    float initialY = 2f;
+    float initialY = 4f;
     float spacingX = 1.5f;
-    float spacingY = 1.2f;
+    float spacingY = 2f;
 
     for (int row = 0; row < 3; row++)
     {
@@ -81,6 +80,14 @@ private void SpawnEnemies()
     public void IncreaseScore(int points)
     {
         score += points;
-        scoreText.text = "" + score;
+        scoreText.text = score.ToString();
+    }
+        public void DecreaseScore(int amount)
+    {
+        if (!isGameOver && score > 0)
+        {
+            score -= amount;
+            scoreText.text = score.ToString();
+        }
     }
 }

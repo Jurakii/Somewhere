@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7319177847289547769}
   - component: {fileID: 1321906432337535054}
   - component: {fileID: 5422222231216397267}
+  - component: {fileID: 3761631705730070246}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -71,8 +72,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b2c8cb7ec6d5ea34795fb20353f9b9c3, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: -2942823943379307754, guid: b2c8cb7ec6d5ea34795fb20353f9b9c3,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,3 +115,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   maxXPosition: 7
+--- !u!95 &3761631705730070246
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7551054923683489802}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e7f4ad5a7a52e5148b212de2de2817dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

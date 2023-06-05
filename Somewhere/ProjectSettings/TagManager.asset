@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Ground
   - Enemy
+  - Projectile
   layers:
   - Default
   - TransparentFX
