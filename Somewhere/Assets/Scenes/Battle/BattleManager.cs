@@ -14,6 +14,7 @@ public class BattleManager : MonoBehaviour
     private List<string> shuffledScenes; // Shuffled list of scene names
     private int currentSceneIndex; // Index of the current scene in the shuffled array
     private float sceneTransitionTimer; // Timer for the scene transition buffer
+    private List<Scene> loadedScenes; // List of loaded scenes
 
     private void Start()
     {
@@ -54,6 +55,7 @@ public class BattleManager : MonoBehaviour
         battleTimer = battleDuration; // Reset the battle timer
         isBattleActive = true; // Set the battle as active
         sceneTransitionTimer = 0f; // Reset the scene transition timer
+        loadedScenes = new List<Scene>(); // Initialize the list of loaded scenes
 
         // Shuffle the scene array and create a shuffled list
         shuffledScenes = new List<string>(sceneNames);
@@ -65,9 +67,11 @@ public class BattleManager : MonoBehaviour
 
     private void LoadCurrentSceneAdditively()
     {
-        string currentSceneName = shuffledScenes[currentSceneIndex]; // Get the current scene from the shuffled list
-        SceneManager.LoadScene(currentSceneName, LoadSceneMode.Additive); // Load the scene additively
-        sceneTransitionTimer = sceneTransitionDelay; // Set the scene transition timer
+        string currentSceneName = shuffledScenes[currentSceneIndex];
+        SceneManager.LoadScene(currentSceneName, LoadSceneMode.Additive);
+        Scene loadedScene = SceneManager.GetSceneByName(currentSceneName);
+        loadedScenes.Add(loadedScene);
+        sceneTransitionTimer = sceneTransitionDelay;
     }
 
     private void LoadNextSceneAdditively()
@@ -83,8 +87,9 @@ public class BattleManager : MonoBehaviour
 
     private void UnloadCurrentSceneAdditively()
     {
-        string currentSceneName = shuffledScenes[currentSceneIndex]; // Get the current scene from the shuffled list
-        SceneManager.UnloadSceneAsync(currentSceneName); // Unload the scene additively
+        Scene currentScene = loadedScenes[currentSceneIndex];
+        SceneManager.UnloadSceneAsync(currentScene);
+        loadedScenes.RemoveAt(currentSceneIndex);
     }
 
     private void PerformPlayerAttack()

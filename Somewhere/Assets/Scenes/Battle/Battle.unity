@@ -235,7 +235,7 @@ MonoBehaviour:
   sceneNames:
   - Jump
   - Space
-  sceneTransitionDelay: 1
+  sceneTransitionDelay: 5
 --- !u!4 &581509225
 Transform:
   m_ObjectHideFlags: 0
