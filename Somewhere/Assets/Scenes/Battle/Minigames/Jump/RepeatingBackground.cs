@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RepeatingBackground : MonoBehaviour
+public class Repeat : MonoBehaviour
 {
     public float moveSpeed = 1f;
     public float wrapPositionX = -10f; // X-coordinate where the object wraps to the opposite side
