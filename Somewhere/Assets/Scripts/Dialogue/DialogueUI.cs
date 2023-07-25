@@ -14,12 +14,13 @@ public class DialogueUI : MonoBehaviour
     private TypewriterEffect typewriterEffect;
     public GameObject player;
     public PlayerMovement moveScript;
+    public GameObject cameraController; // Reference to the CameraController GameObject
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
-
+        UpdateTextWithColor();
         CloseDialogueBox();
     }
 
@@ -83,5 +84,28 @@ public class DialogueUI : MonoBehaviour
         IsOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
+    }
+
+    private void UpdateTextColor()
+    {
+        Camera[] cameras = cameraController.GetComponentsInChildren<Camera>(true);
+        foreach (Camera camera in cameras)
+        {
+            if (camera.gameObject.activeSelf)
+            {
+                WorldColor worldColor = camera.GetComponentInChildren<WorldColor>(true);
+                if (worldColor != null)
+                {
+                    textLabel.color = worldColor.Color4;
+                    break;
+                }
+            }
+        }
+    }
+
+    // Call this method whenever you want to update the text color
+    public void UpdateTextWithColor()
+    {
+        UpdateTextColor();
     }
 }

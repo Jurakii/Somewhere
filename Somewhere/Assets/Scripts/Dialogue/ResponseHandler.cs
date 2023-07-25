@@ -26,7 +26,7 @@ public class ResponseHandler : MonoBehaviour
 
     public void ShowResponses(Response[] responses)
     {
-        float responseBoxHeight = 0;
+        float responseBoxWidth = 0;
 
         for (int i = 0; i < responses.Length; i++)
         {
@@ -40,10 +40,10 @@ public class ResponseHandler : MonoBehaviour
 
             tempResponseButtons.Add(responseButton);
 
-            responseBoxHeight += responseButtonTemplate.sizeDelta.y;
+            responseBoxWidth += responseButtonTemplate.sizeDelta.x;
         }
 
-        responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
+        responseBox.sizeDelta = new Vector2(responseBoxWidth, responseBox.sizeDelta.y);
         responseBox.gameObject.SetActive(true);
     }
 
