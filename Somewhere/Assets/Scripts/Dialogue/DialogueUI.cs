@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using TMPro;
 
@@ -16,12 +15,18 @@ public class DialogueUI : MonoBehaviour
     public PlayerMovement moveScript;
     public GameObject cameraController; // Reference to the CameraController GameObject
 
+    // Reference to the DialogueActivator script
+    public DialogueActivator dialogueActivator;
+
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
         UpdateTextWithColor();
         CloseDialogueBox();
+
+        // Get the DialogueActivator script attached to another object (you need to set this object in the Inspector)
+        dialogueActivator = FindObjectOfType<DialogueActivator>();
     }
 
     public void ShowDialogue(DialogueObject dialogueObject)
@@ -62,20 +67,21 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    private IEnumerator RunTypingEffect(string dialogue)
+private IEnumerator RunTypingEffect(string dialogue)
+{
+    typewriterEffect.Run(dialogue, textLabel, dialogueActivator.SFX); // Add the SFX parameter here
+
+    while (typewriterEffect.IsRunning)
     {
-        typewriterEffect.Run(dialogue, textLabel);
+        yield return null;
 
-        while (typewriterEffect.IsRunning)
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
         {
-            yield return null;
-
-            if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
-            {
-                typewriterEffect.Stop();
-            }
+            typewriterEffect.Stop();
         }
     }
+}
+
 
     public void CloseDialogueBox()
     {

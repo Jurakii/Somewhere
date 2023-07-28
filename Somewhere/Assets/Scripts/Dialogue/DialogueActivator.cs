@@ -3,6 +3,7 @@
 public class DialogueActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] private DialogueObject dialogueObject;
+    public AudioSource SFX; // Add the public audio source
 
     public void UpdateDialogueObject(DialogueObject dialogueObject)
     {
@@ -38,7 +39,6 @@ public class DialogueActivator : MonoBehaviour, IInteractable
                 break;
             }
         }
-
         player.DialogueUI.ShowDialogue(dialogueObject);
     }
 }
