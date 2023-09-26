@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
 			animator.SetFloat("Speed", 0f);
+			
         }
 
 		
@@ -73,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
 		jump = false;
         } else
         {
+			//animator.Play("Idle");
 			controller.Move(0, crouch, jump);
 		}
 
